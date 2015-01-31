@@ -9,6 +9,12 @@ I'm sure there are lots of valid criticisms for the approach I've taken in
 `BarkingIguana::Verify`. I'd like to hear *those* and not whining about
 lack of suitable clients libraries.
 
+## Installing
+
+```
+npm install barkingiguana-verify
+```
+
 ## Usage
 
 ```javascript
