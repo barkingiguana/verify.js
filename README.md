@@ -2,7 +2,7 @@
 
 Node.js port of https://github.com/barkingiguana/verify
 
-I got fed up of people tellingme they couldn't use time based signed
+I got fed up of people telling me they couldn't use time based signed
 actions because there was no client library for Node.js.
 
 I'm sure there are lots of valid criticisms for the approach I've taken in
