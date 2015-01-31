@@ -1,6 +1,6 @@
 {
   "name": "barkingiguana-verify",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "description": "Node.js port of BarkingIguana::Verify",
   "main": "lib/verify.js",
   "directories": {
