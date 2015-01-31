@@ -1,0 +1,28 @@
+{
+  "name": "verify",
+  "version": "0.0.1",
+  "description": "Node.js port of BarkingIguana::Verify",
+  "main": "lib/verify.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/barkingiguana/verify.js.git"
+  },
+  "keywords": [
+    "signature",
+    "authentication",
+    "verify",
+    "api"
+  ],
+  "author": "Craig R Webster <craig@barkingiguana.com> (http://barkingiguana.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barkingiguana/verify.js/issues"
+  },
+  "homepage": "https://github.com/barkingiguana/verify.js"
+}
