@@ -14,7 +14,7 @@ lack of suitable clients libraries.
 ```javascript
 verify  = require('barkingiguana-verify');
 
-baseUrl = 'http://example.com/';
+baseUrl = 'http://example.com';
 username = 'craigw';
 password = '123456-1234-1234-123456';
 intent = verify.expressIntent('DELETE', '/resource/123', { confirm: true });
