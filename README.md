@@ -12,17 +12,18 @@ lack of suitable clients libraries.
 ## Usage
 
 ```javascript
-verify  = require('./lib/verify')
+verify  = require('barkingiguana-verify');
 
-baseUrl = 'http://.../'
-username = 'craigw'
-password = '123456-1234-1234-123456'
-intent = verify.expressIntent('DELETE', '/resource/123', { confirm: true })
-intentExpiry = new Date()
-intentExpiry.setTime(1422724138000)
-action = intent.sign(username, password, intentExpiry)
+baseUrl = 'http://example.com/';
+username = 'craigw';
+password = '123456-1234-1234-123456';
+intent = verify.expressIntent('DELETE', '/resource/123', { confirm: true });
+intentExpiry = new Date();
+intentExpiry.setTime(1422724138000);
+action = intent.sign(username, password, intentExpiry);
+url = baseUrl + action.getSignedPath();
 
-url = baseUrl + action.getSignedPath()
+// Now make the request to that URL.
 require('request')({ uri: url, method: "DELETE" }, function(error, response, body) {
   console.log("Performed action")
 })
